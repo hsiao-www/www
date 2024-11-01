@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>語妮的履歷表</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 440px;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: auto;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        figure {
+            width: 150px;
+            height: 200px;
+            background-color: #fff;
+            border: 1px solid #000;
+            margin-bottom: 20px;
+            text-align: center
+        }
+
+        img {
+            width: 148px;
+            height: 198px;
+
+        }
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>履歷表</h2>
+    </header>
+
+    <section>
+        <nav>
+            <figure>
+                <img src="image.jpg" />
+            </figure>
+            <ul>
+                <li><strong>姓名:</strong> 蕭語妮</li>
+                <li><strong>聯絡電話:</strong> 0912345678</li>
+                <li><strong>電子郵件:</strong> c113138102@nkust.edu.tw</li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>個人簡介</h1>
+            <p>你好，我是語妮，一位喜歡探索大自然，並拍照記錄下來的人類。</p>
+
+            <h1>學歷</h1>
+            <p>高中：台中市明德高級中學-商業經營科</p>
+            <p>大學：國立高雄科技大學-金融系</p>
+
+            <h1>興趣</h1>
+            <p>畫畫、睡覺、看海</p>
+
+            <h1>工作經驗</h1>
+            <p>嗚嗚，我沒有工作經驗。</p>
+
+        </article>
+    </section>
+
+    <footer>
+        <p>第一頁</p>
+    </footer>
+
+</body>
+
+</html>
